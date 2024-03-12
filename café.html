@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+function changeContent() {
+    var highlightSection = document.getElementById('highlight');
+    highlightSection.innerHTML = '<h1>Conteúdo Alterado!</h1><p>Agora você está explorando novas informações.</p>';
+}
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página Inicial</title>
+    <style>
+       
+       body {
+            background-color: black; /* Define o fundo como preto */
+            color: white; /* Define a cor do texto como branco */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/*isso muda a cor do texto*/
+nav a {
+    text-decoration: none;
+    color: rgb(211, 166, 129);
+}
+
+main {
+    background-color: black;
+    padding: 20px;
+}
+
+#highlight {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+/* isso muda a cor do botão*/
+button {
+    background-color:peru;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    border: none;
+}
+/* isso muda a cor do botão quando o mouse passar por cima */
+button:hover {background-color:sandybrown }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/* Adicione estas regras CSS para estilizar a imagem */
+#highlight img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto;    /* Mantém a proporção da imagem */
+    margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+}
+
+
+    </style>
+        
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href=" https://youtu.be/HTsmCbvAaJc?si=RUjbbcCOqPWW6ps4  ">olha isso</a>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Redes sociais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="highlight">
+            <img src=img/LOGO.JPG alt="logo do café" width="200" height="100">
+            <h1>Bem-vindo ao Start Café</h1>
+            <p>Explore nosso cardápio.</p>
+            <a href="menu.html"> <button>MENU</button> </a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Nosso Website. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
